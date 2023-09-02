@@ -1,0 +1,19 @@
+Quick Question #1
+Answer: {1,2,3,4}
+
+
+Quick Question #2
+Answer: "ref"
+
+
+
+Quick Question #3
+Answer: 0: {Array(3) => true} 1: {Array(3) => false}
+
+
+
+hasDuplicate
+Answer: 
+function hasDuplicate(arr){
+    new Set(arr).size !== arr.length;
+}
